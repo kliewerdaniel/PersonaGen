@@ -160,7 +160,7 @@ def generate_content(persona_data, prompt):
     ])
 
     decoding_prompt = f'''
-    You are to write a blog post in the style of {persona_data.get('name', 'Unknown Author')}, a writer with the following characteristics:
+    You are to write a response in the style of {persona_data.get('name', 'Unknown Author')}, a writer with the following characteristics:
 
     {characteristics}
 
