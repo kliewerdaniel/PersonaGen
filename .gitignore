@@ -1,0 +1,96 @@
+# Environment variables
+.env
+.env.*
+*.env
+frontend/.env
+frontend/.env.local
+frontend/.env.development.local
+frontend/.env.test.local
+frontend/.env.production.local
+backend/.env
+
+# Python artifacts
+*.py[cod]
+*$py.class
+__pycache__/
+backend/**/__pycache__/
+backend/*.pyc
+backend/**/*.pyc
+
+# Virtual environments
+venv/
+ENV/
+env/
+
+# Django artifacts
+backend/db.sqlite3
+backend/media/
+backend/static/
+backend/staticfiles/
+backend/core/static/
+backend/core/media/
+
+# Node artifacts
+frontend/node_modules/
+frontend/.pnp/
+frontend/.pnp.js
+
+# Build outputs
+frontend/build/
+frontend/dist/
+frontend/coverage/
+frontend/.parcel-cache/
+
+# Logs and debug files
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pip-log.txt
+pip-delete-this-directory.txt
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Editor directories and files
+.vscode/
+.idea/
+*.sublime-workspace
+*.sublime-project
+*.swp
+*~
+
+# Miscellaneous
+/venv
+/backend/__init__.py
+
+# Coverage reports
+htmlcov/
+.tox/
+.coverage
+coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+
+# Test output
+.pytest_cache/
+.mypy_cache/
+
+# Egg files
+*.egg-info/
+.eggs/
+
+# Ollama data
+ollama/
+
+# Ignore secrets
+secrets.json
+
+# Ignore pycache
+__pycache__
+
+/backend/backend/__pycache__
+/backend/core/__pycache__
